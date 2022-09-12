@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container_Div {
+    padding: 20px 0 ;
+    background-color:aliceblue;
+}
+
+.divs {
+    padding: 25px 0 15px 0;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.div2_spacing {
+    margin-left: 29px;
+}
+
+.div4_spacing {
+    margin-left: 29px;
+}
+
+.Person_Image {
+    float: left;
+    border: 1.7px solid rgb(185, 179, 179);
+    border-radius: 100px;
+    height: 32px;
+    margin-right: 15px;
+
+    position:static;
+   
+}
+
+.Person_Name {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.Person_Major {
+    line-height: 0;
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 81%);
+    opacity: 50%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.Person_Experience {
+    font-size: 1.2rem;
+    padding: 8px 0;
+    color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+.Person_Response {
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 81%);
+    opacity: 70%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    right: 90px;
+    height: 100px;
+    z-index: -1;
+}
+
+.Column1_Spacing {
+    margin-left: 120px;
+}
+
+/* Styling on Individual Divs  */
+
+/*////// Daniel_div ///////*/
+
+.Daniel_div {
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+    z-index: 1;
+}
+
+/*////// Jonathan_div ///////*/
+
+.Jonathan_div {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.Jonathan_div img {
+    border: none;
+    height: 30px;
+}
+
+/*////// Jeanette_div ///////*/
+
+.Jeanette_div {
+    background-color:hsl(0, 0%, 100%);
+    box-shadow:rgb(224, 236, 248) 0.4px 1px 1px 1px;
+}
+
+.Jeanette_div img {
+    border: none;
+    height: 30px;
+}
+
+.Jeanette_div .Person_Experience {
+    color: hsl(219, 29%, 14%);
+}
+
+
+.Jeanette_div .Person_Name {
+    color: hsl(219, 29%, 14%);
+}
+
+.Jeanette_div .Person_Response {
+    color: hsl(219, 29%, 14%);
+    padding-top: 10px;
+}
+
+.Jeanette_div .Person_Major {
+    color: hsl(219, 29%, 14%);
+}
+
+/*////// Patrick_div ///////*/
+
+.Patrick_div {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.Patrick_div img{
+    border-color: hsl(263, 55%, 52%);
+}
+
+.Patrick_div .Person_Response {
+    padding-top: 10px;
+}
+
+/*////// Kira_div ///////*/
+
+.Kira_div {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow:rgb(224, 236, 248) 0.2px 1px 1px 1px;
+}
+
+.Kira_div img {
+    border: none;
+    height: 30px;
+}
+
+.Kira_div .Person_Experience {
+    color: hsl(219, 29%, 14%);
+}
+
+.Kira_div .Person_Name {
+    color: hsl(219, 29%, 14%);
+}
+
+.Kira_div .Person_Response {
+    color: hsl(219, 29%, 14%);
+}
+
+.Kira_div .Person_Major {
+    color: hsl(219, 29%, 14%);
+}
+
+
+/* Column 2 Div  */
+
+.column2_div {
+    padding: 25px 0 15px 0;
+    border-radius: 10px;
+} 
+
+.Column2_Spacing {
+    margin-left: 29px;
+}
+
+
+
+
